@@ -1,0 +1,19 @@
+@import "../../../../styles/variables.scss";
+
+.NavItem {
+  display: block;
+
+  a {
+    color: $textColorLight;
+    font-size: 3vmin;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+  }
+
+  a:hover,
+  a:active,
+  a.active {
+    color: $secondaryColor;
+  }
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./NavArrows.module.scss";
+import { INavItem } from "../../../models/navItems";
 
-interface IProps {
-    link: string;
-}
-
-const NavArrows: React.FC<IProps> = ({ link }) => (
-  <a href={link}><div className={styles.DownArrows}>projects</div></a>
+const NavArrows: React.FC<INavItem> = ({ link, label }) => (
+  <a href={link}>
+    <div className={styles.DownArrows}>
+      {label}
+    </div>
+  </a>
 );
 
 export default NavArrows;

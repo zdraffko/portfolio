@@ -4,12 +4,12 @@ import ParticlesBackground from "../../layout/ParticlesBackground/ParticlesBackg
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 
 const LandingSection = () => (
-  <div className={styles.LandingSection}>
+  <section id="home" className={styles.LandingSection}>
     <span>Hello, I am &nbsp; <span className={styles.Highlight}>Zdravko Mihov</span>.</span>
     <span>I am a software engineer wannabe.</span>
-    <NavArrows link="#projects" />
+    <NavArrows link="#projects" label="projects" />
     <ParticlesBackground />
-  </div>
+  </section>
 );
 
 export default LandingSection;
