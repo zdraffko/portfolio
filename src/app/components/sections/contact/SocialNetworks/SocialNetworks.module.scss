@@ -1,0 +1,42 @@
+@import "../../../../styles/variables.scss";
+
+$timing: 250ms;
+$iconColor: $secondaryColor;
+$accent: #c85417;
+
+.SocialNetworks {
+  width: 50%;
+  text-align: center;
+}
+
+.SocialIcons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 3vmin;
+  }
+
+  i {
+    color: #ffffff;
+    transition: all $timing ease-out;
+  }
+
+  a {
+    &:hover:before {
+      transform: scale(0);
+      transition: all $timing ease-in;
+    }
+
+    &:hover i {
+      transform: scale(1.3);
+      color: $iconColor;
+      background: linear-gradient(45deg, $iconColor, $accent);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all $timing ease-in;
+    }
+  }
+}
