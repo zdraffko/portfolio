@@ -11,3 +11,10 @@
   font-size: calc(30px + 2vmin);
   color: $textColorLight;
 }
+
+.ArrowsContainer {
+  position: absolute;
+  top: 85%;
+  left: 47%;
+  z-index: 1;
+}

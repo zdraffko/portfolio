@@ -14,3 +14,10 @@
 .Highlight {
   color: $secondaryColor;
 }
+
+.ArrowsContainer {
+  position: absolute;
+  top: 75%;
+  left: 47%;
+  z-index: 1;
+}

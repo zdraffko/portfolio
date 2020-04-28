@@ -7,7 +7,9 @@ const LandingSection = () => (
   <section id="home" className={styles.LandingSection}>
     <span>Hello, I am &nbsp; <span className={styles.Highlight}>Zdravko Mihov</span>.</span>
     <span>I am a software engineer wannabe.</span>
-    <NavArrows link="#projects" label="projects" />
+    <div className={styles.ArrowsContainer}>
+      <NavArrows link="#projects" label="projects" direction="down" />
+    </div>
     <ParticlesBackground />
   </section>
 );
