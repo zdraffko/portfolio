@@ -2,10 +2,12 @@
 
 .NavItem {
   display: block;
+  text-transform: uppercase;
+  margin-left: auto;
 
   a {
     color: $textColorLight;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-decoration: none;
     width: 100%;
     display: block;

@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./ContactSection.module.scss";
+import SectionTitle from "../../layout/SectionTitle/SectionTitle";
 
 const ContactSection = () => (
-  <div id="contact" className={styles.ContactSection}>
-    <h1>Contact</h1>
-  </div>
+  <section id="contact" className={styles.ContactSection}>
+    <SectionTitle title="Contact" darkMode />
+  </section>
 );
 
 export default ContactSection;

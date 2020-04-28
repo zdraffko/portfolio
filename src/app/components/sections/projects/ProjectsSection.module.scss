@@ -1,6 +1,7 @@
 @import "../../../styles/variables.scss";
 
 .ProjectsSection {
+  position: relative;
   background-color: $sectionBackgroundColorLight;
   min-height: 100vh;
   display: flex;

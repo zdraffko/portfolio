@@ -1,6 +1,7 @@
 @import "../../../styles/variables.scss";
 
 .AboutSection {
+  position: relative;
   background-color: $sectionBackgroundColorDark;
   min-height: 100vh;
   display: flex;
