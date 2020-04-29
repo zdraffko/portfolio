@@ -1,0 +1,30 @@
+@import "../../../../styles/variables.scss";
+
+.AboutMeWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    margin: auto;
+    color: $secondaryColor;
+    text-transform: uppercase;
+  }
+}
+
+.AboutMe {
+  margin: 2vmin;
+  width: 50%;
+  height: 100%;
+  border-radius: 40px;
+  border-right: 5px solid $secondaryColor;
+  border-bottom: 3px solid $secondaryColor;
+
+  p {
+    padding: 1vmin;
+    font-size: calc(15px + 1.5vmin);
+    line-height: 4.5vmin;
+    text-align: left;
+  }
+}
