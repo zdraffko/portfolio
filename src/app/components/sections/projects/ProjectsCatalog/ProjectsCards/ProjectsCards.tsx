@@ -1,12 +1,19 @@
 import React from "react";
 import styles from "./ProjectsCards.module.scss";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import { IProject } from "../../../../../models/project";
 
-const ProjectsCards = () => (
+interface IProps {
+  projects: IProject[];
+}
+
+const ProjectsCards: React.FC<IProps> = ({ projects }) => (
   <div className={styles.ProjectsCards}>
-    <ProjectCard />
-    <ProjectCard />
-    <ProjectCard />
+    {
+      projects.map(
+        project => <ProjectCard key={project.name} project={project} />
+      )
+    }
   </div>
 );
 

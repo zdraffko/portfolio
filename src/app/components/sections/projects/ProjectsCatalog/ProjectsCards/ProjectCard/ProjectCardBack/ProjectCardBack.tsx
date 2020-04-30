@@ -1,16 +1,23 @@
 import React from "react";
 import styles from "./ProjectCardBack.module.scss";
+import { IProject } from "../../../../../../../models/project";
 
-const ProjectCardBack = () => (
+interface IProps {
+  project: IProject
+}
+
+const ProjectCardBack: React.FC<IProps> = ({ project }) => (
   <div className={styles.ProjectCardBack}>
     <div className={styles.CardHeader}>
       <h6>Technologies used</h6>
     </div>
     <div className={styles.CardBody}>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        {
+          project.technologies.map(
+            technology => <li key={`${project.name}${technology}`}>{technology}</li>
+          )
+        }
       </ul>
     </div>
   </div>
