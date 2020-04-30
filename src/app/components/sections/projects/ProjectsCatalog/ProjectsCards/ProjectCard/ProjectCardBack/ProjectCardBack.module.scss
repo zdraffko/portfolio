@@ -1,0 +1,40 @@
+@import "../../../../../../../styles/variables.scss";
+
+.ProjectCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 40px;
+
+  background-color: $primaryColor;
+  color: $textColorLight;
+  transform: rotateY(180deg);
+}
+
+.CardHeader {
+  background-color: $primaryColor;
+  color: $textColorLight;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid $secondaryColor;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  h6 {
+    margin: 0;
+  }
+}
+
+.CardBody {
+  background-color: $primaryColor;
+  color: $textColorLight;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
