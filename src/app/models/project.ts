@@ -6,7 +6,7 @@ export interface IProject {
     technologies: string[];
     sourceCodeLink: string;
     livePreviewLink?: string;
-    categories: string[];// constants
+    categories: string[];
 }
 
 export const appProjects: IProject[] = [

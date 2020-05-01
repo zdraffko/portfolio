@@ -5,7 +5,7 @@ import ProjectsCatalog from "./ProjectsCatalog/ProjectsCatalog";
 
 const ProjectsSection = () => (
   <section id="projects" className={styles.ProjectsSection}>
-    <SectionTitle title="Projects" />
+    <SectionTitle title="Projects" subtitle="See what I've build" />
     <ProjectsCatalog />
   </section>
 );
