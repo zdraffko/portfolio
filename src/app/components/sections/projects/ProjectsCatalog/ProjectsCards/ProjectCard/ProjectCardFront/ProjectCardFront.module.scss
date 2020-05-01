@@ -1,15 +1,18 @@
 @import "../../../../../../../styles/variables.scss";
 
 .ProjectCardFront {
+  background-color: $sectionBackgroundColorLight;
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  box-shadow: 0px 0px 20px 0px gray;
+  border-radius: 30px;
 }
 
 .CardHeader {
   background-color: $primaryColor;
-  color: $secondaryColor;
+  color: $textColorLight;
   height: 20%;
   display: flex;
   justify-content: center;
@@ -24,16 +27,16 @@
 }
 
 .CardBody {
-  background-color: $sectionBackgroundColorDark;
+  background-color: $sectionBackgroundColorLight;
   color: $textColorDark;
-  height: 80%;
+  height: 70%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  align-items: flex-start;
   font-size: calc(15px + 1.5vmin);
   padding: 2vmin;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 
   p {
     margin: 0;

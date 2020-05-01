@@ -6,10 +6,11 @@
   height: 100%;
   backface-visibility: hidden;
   border-radius: 40px;
-
   background-color: $primaryColor;
   color: $textColorLight;
   transform: rotateY(180deg);
+  box-shadow: 0px 0px 20px 0px gray;
+  border-radius: 30px;
 }
 
 .CardHeader {
@@ -31,12 +32,49 @@
 .CardBody {
   background-color: $primaryColor;
   color: $textColorLight;
-  height: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: calc(10px + 1.5vmin);
+  padding: 2vmin;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid $secondaryColor;
+    margin-bottom: 3vmin;
+  }
+}
+
+.CardFooter {
+  height: 20%;
+  font-size: calc(10px + 1.5vmin);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  font-size: calc(15px + 1.5vmin);
-  padding: 2vmin;
+
+  a {
+    text-decoration: none;
+    color: $textColorLight;
+    border: 2px solid $secondaryColor;
+    border-radius: 40px;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+  }
+
+  a:hover {
+    background-color: $secondaryColor;
+  }
+
+  i {
+    margin-right: 10px;
+  }
 }

@@ -32,15 +32,15 @@ export const appProjects: IProject[] = [
     categories: [projectCategories.ASPNET]
   },
   {
-    name: "Employee management system",
-    description: "An ASP.NET Core MVC application where managers can manage their employees",
+    name: "EMS",
+    description: "An ASP.NET Core MVC application where managers can manage their employees.",
     technologies: ["ASP.NET Core", "EF Core", "Microsoft SQL Server"],
     sourceCodeLink: "https://github.com/zdraffko/EMS",
     categories: [projectCategories.ASPNET]
   },
   {
-    name: "Car Crash Virtual Sensor",
-    description: "A single-page application calculating death probability in a car crash",
+    name: "Virtual Sensor",
+    description: "A single-page application calculating death probability in a car crash.",
     technologies: ["React", "JavaScript"],
     sourceCodeLink: "https://github.com/zdraffko/car-crash-virtual-sensor",
     livePreviewLink: "https://zdraffko.github.io/car-crash-virtual-sensor/",
