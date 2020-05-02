@@ -14,11 +14,11 @@
 
 .Button:hover,
 .Button:focus {
-  background-color: $secondaryColor;
   outline: none;
 }
 
 .Button:hover {
+  background-color: $secondaryColor;
   transform: scale(1.1);
 }
 

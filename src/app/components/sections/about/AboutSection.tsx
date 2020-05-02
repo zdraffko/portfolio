@@ -3,6 +3,7 @@ import styles from "./AboutSection.module.scss";
 import SectionTitle from "../../layout/SectionTitle/SectionTitle";
 import AboutMe from "./AboutMe/AboutMe";
 import SkillsShowcase from "./SkillsShowcase/SkillsShowcase";
+import AboutSectionFooter from "./AboutSectionFooter/AboutSectionFooter";
 
 const AboutSection = () => (
   <section id="about" className={styles.AboutSection}>
@@ -11,6 +12,7 @@ const AboutSection = () => (
       <AboutMe />
       <SkillsShowcase />
     </div>
+    <AboutSectionFooter />
   </section>
 );
 

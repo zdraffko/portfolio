@@ -1,0 +1,16 @@
+@import "../../../../styles/variables.scss";
+
+.ProjectsSectionFooter {
+  h6 {
+    margin: 0;
+  }
+  i {
+    color: $primaryColor;
+    margin: 5vmin;
+  }
+
+  i:hover {
+    color: $secondaryColor;
+    transform: scale(1.1);
+  }
+}
