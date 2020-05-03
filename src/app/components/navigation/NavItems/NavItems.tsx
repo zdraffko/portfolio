@@ -9,7 +9,9 @@ interface IProps {
 
 const NavItems: React.FC<IProps> = ({ items }) => (
   <ul className={styles.NavItems}>
-    {items.map(item => <NavItem key={item.link} link={item.link} label={item.label} />)}
+    {
+      items.map(item => <NavItem key={item.link} link={item.link} label={item.label} />)
+    }
   </ul>
 );
 

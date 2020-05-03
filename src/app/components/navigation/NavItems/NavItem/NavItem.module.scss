@@ -15,7 +15,12 @@
 
   a:hover,
   a:active,
-  a.active {
+  a.Active {
     color: $secondaryColor;
   }
+}
+
+.Active {
+  color: $secondaryColor;
+  transition: color 0.5s;
 }
