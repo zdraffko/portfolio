@@ -78,3 +78,9 @@
     margin-right: 10px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .CardBody {
+    font-size: calc(15px + 1.5vmin);
+  }
+}

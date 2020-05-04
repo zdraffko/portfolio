@@ -23,9 +23,33 @@
   box-shadow: 5px 5px 5px 0px gray;
 
   p {
-    padding: 1vmin;
+    padding: 3vmin;
     font-size: calc(15px + 1.5vmin);
     line-height: 4.5vmin;
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .AboutMeWrapper {
+    flex-direction: column-reverse;
+
+    h2 {
+      margin-top: 5vmin;
+    }
+  }
+
+  .AboutMe {
+    width: 95%;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .AboutMe {
+    p {
+      font-size: calc(20px + 1.5vmin);
+      line-height: 30px;
+    }
   }
 }

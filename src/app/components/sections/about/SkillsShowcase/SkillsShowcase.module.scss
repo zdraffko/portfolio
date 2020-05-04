@@ -53,3 +53,47 @@
     margin-left: -1em;
   }
 }
+
+@media only screen and (max-width: 1050px) {
+  .SkillsShowcaseWrapper {
+    flex-direction: column;
+
+    h2 {
+      margin-top: 100px;
+    }
+  }
+
+  .SkillsShowcase {
+    width: 95%;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SkillsShowcase {
+    p {
+      margin: 40px 10px;
+      font-size: calc(20px + 1.5vmin);
+    }
+  }
+
+  .OuterList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(20px + 1.5vmin);
+  }
+
+  .InnerList {
+    font-size: calc(15px + 1.5vmin);
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .OuterList {
+    width: 60%;
+  }
+}

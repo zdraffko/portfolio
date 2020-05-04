@@ -5,3 +5,19 @@
   align-items: center;
   margin-bottom: 5vmin;
 }
+
+@media only screen and (max-width: 1250px) {
+  .FilterWidget {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .FilterWidget {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
