@@ -1,8 +1,14 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => (
-  <div className={styles.AboutMeWrapper}>
+  <Fade
+    triggerOnce
+    direction="left"
+    className={styles.AboutMeWrapper}
+    duration={1500}
+  >
     <div className={styles.AboutMe}>
       <p>
         My name is Zdravko and I am currently
@@ -16,7 +22,7 @@ const AboutMe = () => (
       </p>
     </div>
     <h2>About me</h2>
-  </div>
+  </Fade>
 );
 
 export default AboutMe;

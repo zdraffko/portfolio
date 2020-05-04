@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import styles from "./ProjectCard.module.scss";
 import ProjectCardFront from "./ProjectCardFront/ProjectCardFront";
 import ProjectCardBack from "./ProjectCardBack/ProjectCardBack";
@@ -9,12 +10,14 @@ interface IProps {
 }
 
 const ProjectCard: React.FC<IProps> = ({ project }) => (
-  <div className={styles.ProjectCardWrapper}>
-    <div className={styles.ProjectCard}>
-      <ProjectCardFront project={project} />
-      <ProjectCardBack project={project} />
+  <Fade triggerOnce direction="left" duration={1500}>
+    <div className={styles.ProjectCardWrapper}>
+      <div className={styles.ProjectCard}>
+        <ProjectCardFront project={project} />
+        <ProjectCardBack project={project} />
+      </div>
     </div>
-  </div>
+  </Fade>
 );
 
 export default ProjectCard;

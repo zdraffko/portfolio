@@ -1,8 +1,9 @@
 import React from "react";
+import { Zoom } from "react-awesome-reveal";
 import style from "./SocialNetworks.module.scss";
 
 const SocialNetworks = () => (
-  <div className={style.SocialNetworks}>
+  <Zoom triggerOnce className={style.SocialNetworks}>
     <ul className={style.SocialIcons}>
       <li>
         <a href="https://github.com/zdraffko" target="_blank" rel="noopener noreferrer">
@@ -22,7 +23,7 @@ const SocialNetworks = () => (
         </a>
       </li>
     </ul>
-  </div>
+  </Zoom>
 );
 
 export default SocialNetworks;

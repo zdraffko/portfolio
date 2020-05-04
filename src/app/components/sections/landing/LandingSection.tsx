@@ -1,12 +1,17 @@
 import React from "react";
+import { Fade, Pulse } from "react-awesome-reveal";
 import styles from "./LandingSection.module.scss";
 import ParticlesBackground from "../../layout/ParticlesBackground/ParticlesBackground";
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 
 const LandingSection = () => (
   <section id="home" className={styles.LandingSection}>
-    <span>Hello, I am &nbsp; <span className={styles.Highlight}>Zdravko Mihov</span>.</span>
-    <span>I am a software engineer wannabe.</span>
+    <Fade triggerOnce duration={2000}>
+      <span>Hello, I am &nbsp;
+        <Pulse className={styles.Highlight} duration={2000}>Zdravko Mihov</Pulse>.
+      </span><br />
+      <span>I am a software engineer wannabe.</span>
+    </Fade>
     <div className={styles.ArrowsContainer}>
       <NavArrows link="#projects" label="projects" direction="down" />
     </div>

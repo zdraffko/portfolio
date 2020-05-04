@@ -1,10 +1,11 @@
 import React from "react";
+import { HeadShake } from "react-awesome-reveal";
 import styles from "./AboutSectionFooter.module.scss";
 
 const AboutSectionFooter = () => (
-  <div className={styles.AboutSectionFooter}>
+  <HeadShake className={styles.AboutSectionFooter}>
     <a href="./Zdravko-Mihov-CV.pdf" download>Download my CV</a>
-  </div>
+  </HeadShake>
 );
 
 export default AboutSectionFooter;

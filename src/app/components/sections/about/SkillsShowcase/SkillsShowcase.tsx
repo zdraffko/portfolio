@@ -1,8 +1,14 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import styles from "./SkillsShowcase.module.scss";
 
 const SkillsShowcase = () => (
-  <div className={styles.SkillsShowcaseWrapper}>
+  <Fade
+    triggerOnce
+    direction="right"
+    className={styles.SkillsShowcaseWrapper}
+    duration={1500}
+  >
     <h2>Skills</h2>
     <div className={styles.SkillsShowcase}>
       <p>I have experience with the following</p>
@@ -65,7 +71,7 @@ const SkillsShowcase = () => (
         </li>
       </ul>
     </div>
-  </div>
+  </Fade>
 );
 
 export default SkillsShowcase;
