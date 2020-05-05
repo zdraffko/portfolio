@@ -24,3 +24,14 @@
   color: $secondaryColor;
   transition: color 0.5s;
 }
+
+@media only screen and (max-width: 1250px) {
+  .NavItem {
+    width: 100%;
+
+    a {
+      font-size: calc(25px + 1.5vmin);
+      margin-bottom: 15px;
+    }
+  }
+}

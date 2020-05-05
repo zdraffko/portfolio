@@ -1,0 +1,55 @@
+@import "../../../styles/variables.scss";
+
+.BurgerMenu {
+  display: none;
+  position: sticky;
+  top: 0;
+  background: #1b242f;
+  border-bottom: 3px solid $secondaryColor;
+  min-height: 50px;
+  width: 100%;
+  text-align: left;
+  color: $textColorLight;
+  z-index: 1;
+}
+
+.Burger {
+  display: none;
+  cursor: pointer;
+  margin: 12px 30px 0 0;
+  z-index: 1;
+}
+
+.BurgerLineTop,
+.BurgerLineMiddle,
+.BurgerLineBottom {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.BurgerLineTop.OpenedBurgerMenu {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.BurgerLineMiddle.OpenedBurgerMenu {
+  opacity: 0;
+}
+
+.BurgerLineBottom.OpenedBurgerMenu {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media only screen and (max-width: 1250px) {
+  .BurgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .Burger {
+    display: block;
+  }
+}

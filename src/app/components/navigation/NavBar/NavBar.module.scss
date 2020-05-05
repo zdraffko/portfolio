@@ -12,3 +12,9 @@
   display: inline-block;
   z-index: 1;
 }
+
+@media only screen and (max-width: 1250px) {
+  .NavBar {
+    display: none;
+  }
+}
