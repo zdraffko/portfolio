@@ -10,4 +10,11 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
 }
