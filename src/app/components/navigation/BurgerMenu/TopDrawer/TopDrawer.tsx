@@ -1,5 +1,5 @@
 import React from "react";
-import { Flip } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 import styles from "./TopDrawer.module.scss";
 import NavItems from "../../NavItems/NavItems";
 import { appNavItems } from "../../../../models/navItems";
@@ -10,15 +10,15 @@ interface IProps {
 }
 
 const TopDrawer: React.FC<IProps> = ({ isOpen, handleNavLinkSelect }) => (
-  <Flip triggerOnce reverse={!isOpen} duration={750}>
+  <Zoom triggerOnce duration={500}>
     <div
-      className={styles.TopDrawer}
+      className={isOpen ? `${styles.TopDrawer} ${styles.Open}` : styles.TopDrawer}
       onClick={handleNavLinkSelect}
       role="presentation"
     >
       <NavItems items={appNavItems} />
     </div>
-  </Flip>
+  </Zoom>
 );
 
 export default TopDrawer;

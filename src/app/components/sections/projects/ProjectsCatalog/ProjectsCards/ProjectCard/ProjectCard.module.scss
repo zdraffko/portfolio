@@ -29,24 +29,6 @@
 
 @media only screen and (max-width: 600px) {
   .ProjectCardWrapper {
-    width: 450px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .ProjectCardWrapper {
-    width: 350px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .ProjectCardWrapper {
-    width: 250px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .ProjectCardWrapper {
-    width: 150px;
+    width: 100vw;
   }
 }

@@ -1,13 +1,12 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => (
-  <Fade
+  <Zoom
     triggerOnce
-    direction="left"
     className={styles.AboutMeWrapper}
-    duration={1500}
+    duration={750}
   >
     <div className={styles.AboutMe}>
       <p>
@@ -22,7 +21,7 @@ const AboutMe = () => (
       </p>
     </div>
     <h2>About me</h2>
-  </Fade>
+  </Zoom>
 );
 
 export default AboutMe;
