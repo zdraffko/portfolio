@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./FilterWidget.module.scss";
 import projectCategories from "../../../../../constants/projectCategories";
-import Button from "../../../../layout/Button/Button";
+import Button from "../../../../common/Button/Button";
 
 interface IProps {
   filter: string;

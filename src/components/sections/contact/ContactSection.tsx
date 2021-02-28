@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ContactSection.module.scss";
-import SectionTitle from "../../layout/SectionTitle/SectionTitle";
+import SectionTitle from "../../common/SectionTitle/SectionTitle";
 import SocialNetworks from "./SocialNetworks/SocialNetworks";
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 

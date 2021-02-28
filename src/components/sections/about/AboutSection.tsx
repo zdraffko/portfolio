@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutSection.module.scss";
-import SectionTitle from "../../layout/SectionTitle/SectionTitle";
+import SectionTitle from "../../common/SectionTitle/SectionTitle";
 import AboutMe from "./AboutMe/AboutMe";
 import SkillsShowcase from "./SkillsShowcase/SkillsShowcase";
 import AboutSectionFooter from "./AboutSectionFooter/AboutSectionFooter";

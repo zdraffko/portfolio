@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectsSection.module.scss";
-import SectionTitle from "../../layout/SectionTitle/SectionTitle";
+import SectionTitle from "../../common/SectionTitle/SectionTitle";
 import ProjectsCatalog from "./ProjectsCatalog/ProjectsCatalog";
 import ProjectsSectionFooter from "./ProjectsSectionFooter/ProjectsSectionFooter";
 

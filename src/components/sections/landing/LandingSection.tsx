@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade, Pulse } from "react-awesome-reveal";
 import styles from "./LandingSection.module.scss";
-import ParticlesBackground from "../../layout/ParticlesBackground/ParticlesBackground";
+import ParticlesBackground from "../../common/ParticlesBackground/ParticlesBackground";
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 
 const LandingSection = () => (
