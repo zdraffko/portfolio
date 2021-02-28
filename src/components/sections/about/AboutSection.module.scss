@@ -1,21 +1,21 @@
-@import "../../../styles/variables.scss";
+@import "../../../styles/colors.scss";
 
 .AboutSection {
-  position: relative;
-  background-color: $sectionBackgroundColorLight;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(30px + 2vmin);
-  color: $textColorDark;
+	position: relative;
+	background-color: $sectionBackgroundColorLight;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(30px + 2vmin);
+	color: $textColorDark;
 }
 
 .AboutSectionContent {
-  margin-top: 35vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
+	margin-top: 35vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
 }

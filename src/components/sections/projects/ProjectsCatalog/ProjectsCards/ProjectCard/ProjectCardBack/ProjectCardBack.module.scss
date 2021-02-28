@@ -1,95 +1,95 @@
-@import "../../../../../../../styles/variables.scss";
+@import "../../../../../../../styles/colors.scss";
 
 .ProjectCardBack {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 40px;
-  background-color: $primaryColor;
-  color: $textColorLight;
-  transform: rotateY(180deg);
-  box-shadow: 0px 0px 20px 0px gray;
-  border-radius: 30px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	border-radius: 40px;
+	background-color: $primaryColor;
+	color: $textColorLight;
+	transform: rotateY(180deg);
+	box-shadow: 0px 0px 20px 0px gray;
+	border-radius: 30px;
 }
 
 .CardHeader {
-  background-color: $primaryColor;
-  color: $textColorLight;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px solid $secondaryColor;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+	background-color: $primaryColor;
+	color: $textColorLight;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid $secondaryColor;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 
-  h6 {
-    margin: 0;
-  }
+	h6 {
+		margin: 0;
+	}
 }
 
 .CardBody {
-  background-color: $primaryColor;
-  color: $textColorLight;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  font-size: calc(10px + 1.5vmin);
-  padding: 2vmin;
+	background-color: $primaryColor;
+	color: $textColorLight;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	font-size: calc(10px + 1.5vmin);
+	padding: 2vmin;
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
 
-  li {
-    border-bottom: 1px solid $secondaryColor;
-    margin-bottom: 3vmin;
-  }
+	li {
+		border-bottom: 1px solid $secondaryColor;
+		margin-bottom: 3vmin;
+	}
 }
 
 .CardFooter {
-  height: 20%;
-  font-size: calc(10px + 1.5vmin);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: 20%;
+	font-size: calc(10px + 1.5vmin);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  a {
-    text-decoration: none;
-    color: $textColorLight;
-    border: 2px solid $secondaryColor;
-    border-radius: 40px;
-    padding: 10px;
-    display: inline-block;
-    width: 100px;
-  }
+	a {
+		text-decoration: none;
+		color: $textColorLight;
+		border: 2px solid $secondaryColor;
+		border-radius: 40px;
+		padding: 10px;
+		display: inline-block;
+		width: 100px;
+	}
 
-  a:hover {
-    background-color: $secondaryColor;
-  }
+	a:hover {
+		background-color: $secondaryColor;
+	}
 
-  i {
-    margin-right: 10px;
-  }
+	i {
+		margin-right: 10px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-  .ProjectCardBack {
-    border-radius: 0;
-    box-shadow: 0px 2px 10px 0px gray;
-  }
+	.ProjectCardBack {
+		border-radius: 0;
+		box-shadow: 0px 2px 10px 0px gray;
+	}
 
-  .CardHeader {
-    border-radius: 0;
-  }
+	.CardHeader {
+		border-radius: 0;
+	}
 
-  .CardBody {
-    font-size: calc(15px + 1.5vmin);
-  }
+	.CardBody {
+		font-size: calc(15px + 1.5vmin);
+	}
 }

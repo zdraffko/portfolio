@@ -1,20 +1,20 @@
-@import "../../../../styles/variables.scss";
+@import "../../../../styles/colors.scss";
 
 .ProjectsSectionFooter {
-  h6 {
-    margin: 0;
-  }
-  a {
-    display: inline-block;
-  }
+	h6 {
+		margin: 0;
+	}
+	a {
+		display: inline-block;
+	}
 
-  i {
-    color: $primaryColor;
-    margin: 5vmin;
-  }
+	i {
+		color: $primaryColor;
+		margin: 5vmin;
+	}
 
-  i:hover {
-    color: $secondaryColor;
-    transform: scale(1.1);
-  }
+	i:hover {
+		color: $secondaryColor;
+		transform: scale(1.1);
+	}
 }

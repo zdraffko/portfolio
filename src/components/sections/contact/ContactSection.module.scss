@@ -1,19 +1,19 @@
-@import "../../../styles/variables.scss";
+@import "../../../styles/colors.scss";
 
 .ContactSection {
-  position: relative;
-  background-color: $primaryColor;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(30px + 2vmin);
-  color: $textColorLight;
+	position: relative;
+	background-color: $primaryColor;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(30px + 2vmin);
+	color: $textColorLight;
 }
 
 .ArrowsContainer {
-  position: absolute;
-  top: 85%;
-  z-index: 1;
+	position: absolute;
+	top: 85%;
+	z-index: 1;
 }

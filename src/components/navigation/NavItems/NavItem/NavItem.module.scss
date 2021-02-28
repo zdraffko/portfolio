@@ -1,37 +1,37 @@
-@import "../../../../styles/variables.scss";
+@import "../../../../styles/colors.scss";
 
 .NavItem {
-  display: block;
-  text-transform: uppercase;
-  margin-left: auto;
+	display: block;
+	text-transform: uppercase;
+	margin-left: auto;
 
-  a {
-    color: $textColorLight;
-    font-size: 2.5vmin;
-    text-decoration: none;
-    width: 100%;
-    display: block;
-  }
+	a {
+		color: $textColorLight;
+		font-size: 2.5vmin;
+		text-decoration: none;
+		width: 100%;
+		display: block;
+	}
 
-  a:hover,
-  a:active,
-  a.Active {
-    color: $secondaryColor;
-  }
+	a:hover,
+	a:active,
+	a.Active {
+		color: $secondaryColor;
+	}
 }
 
 .Active {
-  color: $secondaryColor;
-  transition: color 0.5s;
+	color: $secondaryColor;
+	transition: color 0.5s;
 }
 
 @media only screen and (max-width: 1250px) {
-  .NavItem {
-    width: 100%;
+	.NavItem {
+		width: 100%;
 
-    a {
-      font-size: calc(25px + 1.5vmin);
-      margin-bottom: 15px;
-    }
-  }
+		a {
+			font-size: calc(25px + 1.5vmin);
+			margin-bottom: 15px;
+		}
+	}
 }

@@ -1,20 +1,20 @@
-@import "../../../styles/variables.scss";
+@import "../../../styles/colors.scss";
 
 .NavBar {
-  position: sticky;
-  top: 0;
-  background: #1b242f;
-  border-bottom: 3px solid $secondaryColor;
-  height: 50px;
-  width: 100%;
-  text-align: left;
-  color: $textColorLight;
-  display: inline-block;
-  z-index: 1;
+	position: sticky;
+	top: 0;
+	background: #1b242f;
+	border-bottom: 3px solid $secondaryColor;
+	height: 50px;
+	width: 100%;
+	text-align: left;
+	color: $textColorLight;
+	display: inline-block;
+	z-index: 1;
 }
 
 @media only screen and (max-width: 1250px) {
-  .NavBar {
-    display: none;
-  }
+	.NavBar {
+		display: none;
+	}
 }
