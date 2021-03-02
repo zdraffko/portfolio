@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./BurgerMenu.module.scss";
 import TopDrawer from "./TopDrawer/TopDrawer";
 
-const BurgerMenu = () => {
+const BurgerMenu: React.FC = () => {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
 
   return (

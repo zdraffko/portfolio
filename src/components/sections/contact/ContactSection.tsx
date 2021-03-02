@@ -4,7 +4,7 @@ import SectionTitle from "../../common/SectionTitle/SectionTitle";
 import SocialNetworks from "./SocialNetworks/SocialNetworks";
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 
-const ContactSection = () => (
+const ContactSection: React.FC = () => (
   <section id="contact" className={styles.ContactSection}>
     <SectionTitle title="Contact" subtitle="You can find me on" darkMode />
     <SocialNetworks />

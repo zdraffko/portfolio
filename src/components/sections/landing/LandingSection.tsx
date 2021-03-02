@@ -4,7 +4,7 @@ import styles from "./LandingSection.module.scss";
 import ParticlesBackground from "../../common/ParticlesBackground/ParticlesBackground";
 import NavArrows from "../../navigation/NavArrows/NavArrows";
 
-const LandingSection = () => (
+const LandingSection: React.FC = () => (
   <section id="home" className={styles.LandingSection}>
     <Fade triggerOnce duration={2000}>
       <span>Hello, I am &nbsp;
