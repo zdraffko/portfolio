@@ -13,8 +13,8 @@ ReactDOM.render(
     <LandingSection />
     <NavBar />
     <BurgerMenu />
-    <ProjectsSection />
     <AboutSection />
+    <ProjectsSection />
     <ContactSection />
   </React.StrictMode>,
   document.getElementById("root"),

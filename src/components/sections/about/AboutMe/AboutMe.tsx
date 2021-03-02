@@ -14,10 +14,12 @@ const AboutMe: React.FC = () => (
       <p>
         My favorite type of Software Development is Web Development.
         I am passionate about learning cutting edge technologies
-        both on the front-end and on the back-end.
+        both on the frontend and on the backend.
+      </p>
+      <p>
+        During 2020 I managed to turn my hobbie into a job by being hired at UltraPlay as a Junior Web Developer.
       </p>
     </div>
-    <h2>About me</h2>
   </div>
 );
 
