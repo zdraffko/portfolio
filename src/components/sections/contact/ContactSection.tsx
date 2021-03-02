@@ -9,7 +9,7 @@ const ContactSection = () => (
     <SectionTitle title="Contact" subtitle="You can find me on" darkMode />
     <SocialNetworks />
     <div className={styles.ArrowsContainer}>
-      <NavArrows link="#projects" label="projects" direction="up" />
+      <NavArrows link="#about" label="projects" direction="up" />
     </div>
   </section>
 );

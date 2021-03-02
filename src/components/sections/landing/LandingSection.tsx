@@ -13,7 +13,7 @@ const LandingSection = () => (
       <span>I am a software engineer wannabe.</span>
     </Fade>
     <div className={styles.ArrowsContainer}>
-      <NavArrows link="#projects" label="projects" direction="down" />
+      <NavArrows link="#about" label="projects" direction="down" />
     </div>
     <ParticlesBackground />
   </section>

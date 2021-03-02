@@ -5,7 +5,7 @@ export interface INavItem {
 
 export const appNavItems: INavItem[] = [
   { link: "#home", label: "home" },
-  { link: "#projects", label: "projects" },
   { link: "#about", label: "about" },
+  { link: "#projects", label: "projects" },
   { link: "#contact", label: "contact" },
 ];

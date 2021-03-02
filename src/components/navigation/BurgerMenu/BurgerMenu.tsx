@@ -6,7 +6,7 @@ const BurgerMenu = () => {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
 
   return (
-    <div className={styles.BurgerMenu}>
+    <nav className={styles.BurgerMenu}>
       <div
         role="presentation"
         className={styles.Burger}
@@ -32,7 +32,7 @@ const BurgerMenu = () => {
         />
       </div>
       <TopDrawer isOpen={isBurgerMenuOpen} handleNavLinkSelect={() => setIsBurgerMenuOpen(false)} />
-    </div>
+    </nav>
   );
 };
 

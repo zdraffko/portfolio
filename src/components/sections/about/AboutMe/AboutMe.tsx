@@ -15,6 +15,7 @@ const AboutMe: React.FC = () => (
         My favorite type of Software Development is Web Development.
         I am passionate about learning cutting edge technologies
         both on the frontend and on the backend.
+        The main technologies I specialize in are React and ASP.NET.
       </p>
       <p>
         During 2020 I managed to turn my hobbie into a job by being hired at UltraPlay as a Junior Web Developer.

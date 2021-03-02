@@ -4,7 +4,7 @@ import NavItem from "./NavItem/NavItem";
 import { INavItem } from "../../../models/navItems";
 
 interface IProps {
-    items: INavItem[]
+    items: INavItem[];
 }
 
 const NavItems: React.FC<IProps> = ({ items }) => (
