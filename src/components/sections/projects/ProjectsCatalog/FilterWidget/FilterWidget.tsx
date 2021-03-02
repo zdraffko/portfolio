@@ -5,7 +5,7 @@ import Button from "../../../../common/Button/Button";
 
 interface IProps {
   filter: string;
-  handleFilterChange: (filter: string) => void
+  handleFilterChange: (filter: string) => void;
 }
 
 const FilterWidget: React.FC<IProps> = ({ handleFilterChange, filter }) => (

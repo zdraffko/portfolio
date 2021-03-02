@@ -1,12 +1,9 @@
 import React from "react";
-import { Zoom } from "react-awesome-reveal";
 import styles from "./AboutMe.module.scss";
 
-const AboutMe = () => (
-  <Zoom
-    triggerOnce
+const AboutMe: React.FC = () => (
+  <div
     className={styles.AboutMeWrapper}
-    duration={750}
   >
     <div className={styles.AboutMe}>
       <p>
@@ -21,7 +18,7 @@ const AboutMe = () => (
       </p>
     </div>
     <h2>About me</h2>
-  </Zoom>
+  </div>
 );
 
 export default AboutMe;

@@ -1,12 +1,9 @@
 import React from "react";
-import { Zoom } from "react-awesome-reveal";
 import styles from "./SkillsShowcase.module.scss";
 
-const SkillsShowcase = () => (
-  <Zoom
-    triggerOnce
+const SkillsShowcase: React.FC = () => (
+  <div
     className={styles.SkillsShowcaseWrapper}
-    duration={750}
   >
     <h2>Skills</h2>
     <div className={styles.SkillsShowcase}>
@@ -70,7 +67,7 @@ const SkillsShowcase = () => (
         </li>
       </ul>
     </div>
-  </Zoom>
+  </div>
 );
 
 export default SkillsShowcase;

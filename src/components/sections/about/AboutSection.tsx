@@ -5,7 +5,7 @@ import AboutMe from "./AboutMe/AboutMe";
 import SkillsShowcase from "./SkillsShowcase/SkillsShowcase";
 import AboutSectionFooter from "./AboutSectionFooter/AboutSectionFooter";
 
-const AboutSection = () => (
+const AboutSection: React.FC = () => (
   <section id="about" className={styles.AboutSection}>
     <SectionTitle title="About" subtitle="Learn more about me" />
     <div className={styles.AboutSectionContent}>
